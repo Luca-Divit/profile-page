@@ -10,7 +10,17 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body class="my-background">
     <%= yield %>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+      var typed = new Typed(".mov",{
+      strings: [,  "Luca Damiano","Di Vittorio","Web Developer"] ,
+      typeSpeed: 90,
+      backSpeed: 40,
+      loop: false
+
+      })
+  </script>
 </html>

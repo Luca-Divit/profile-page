@@ -6,7 +6,7 @@
   background-color: #00BAF0;
   background: linear-gradient(to left, #f46b45, #eea849);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #FFF;
+  color: black;
   height: 50px;
   padding: 1em;
 }
@@ -42,7 +42,7 @@
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #fff;
+  background-color: black;
   position: absolute;
   height: 4px;
   width: 30px;
@@ -72,6 +72,29 @@
 #menu-toggle:checked + .menu-button-container .menu-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
+}
+
+.my-logo {
+  // background-image: image-url("project.png");
+  height: 40px;
+  width: 40px;
+}
+
+section {
+  h4 {
+    margin: 0;
+    color: rgba(0, 0, 0, .8);
+  }
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .75);
+}
+
+.no-decoration:hover {
+  color: rgba(0, 0, 0, 1);
+  text-shadow: 0px 0.1px black;
 }
 
 @media (max-width: 700px) {
@@ -113,10 +136,14 @@
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
-}
 
-.my-logo {
-  // background-image: image-url("project.png");
-  height: 40px;
-  width: 40px;
+  .no-decoration {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .no-decoration:hover {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 0.1px #fff;
+  }
 }
