@@ -1,14 +1,128 @@
 <%= render "navbar" %>
-<div class="container">
+<div class="container py-4">
   <div class="row">
 
-    <div class="col-12 col-sm-8 col-md-10">
-      <h1>Hello from the h1!</h1>
+    <div class="col-12 d-flex justify-content-center mb-4">
+      <%= image_tag "Luca_148.jpg", style: "width: 140px; border-radius: 4px; box-shadow: 4px 4px 50px 4px var(--bs-white);" %>
     </div>
 
-    <div class="col-12 col-sm-4 col-md-2">
-      <div class="btn btn-primary">Bootstrap working!</div>
+    <div class="col-12 d-flex justify-content-center mb-4">
+      <p>Full-stack developer</p>
+    </div>
+
+    <div class="col-12 d-flex justify-content-center mb-4">
+      <h1>Luca Damiano Di Vittorio</h1>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center mb-4">
+      <p><i class="fa-solid fa-location-dot"></i> London, UK</p>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center mb-4">
+      <p><i class="fa-solid fa-comment-dots"></i> English, Italian, Spanish</p>
+    </div>
+
+    <div class="col-12 d-flex justify-content-center mb-4">
+      <%= link_to "See portfolio", portfolio_path, class: "btn btn-primary" %>
+    </div>
+
+    <hr>
+
+    <div class="col-12 d-flex justify-content-center mb-4">
+      <h3>Bio:</h3>
+    </div>
+
+    <div class="col-12 d-flex justify-content-center mb-4">
+      <p>
+        I consider myself a citizen of the world but I was raised in Rome (Italy), moved in my early 20' to London. <br>
+        <strong>Graduated</strong> from <strong><em>Le Wagon</em></strong> coding bootcamp in June 2022, I am a qualified web developer
+        with experience in <strong>object oriented programming</strong>, <strong>test driven development</strong> and <strong>databases</strong>.<br>
+        Strong <strong>creative</strong>, <strong>analytical</strong> and <strong>problem solving skills</strong>.<br>
+        <strong>Team player</strong> with an <strong>eye for detail</strong>.<br>
+        My philosophy in life is:<br>
+        <em>“Live as if you were to die tomorrow. Learn as if you were to live forever.”</em>
+      </p>
+    </div>
+
+    <hr>
+
+    <div class="col-12 d-flex justify-content-center mb-4">
+      <a href="mailto:luca.div@hotmail.com" class="btn btn-primary">Get in touch</a>
+    </div>
+
+    <hr>
+
+    <div class="col-12 d-flex justify-content-center mb-4">
+      <h3>Skills:</h3>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-start mb-4">
+      <ul>
+        <li>Ruby</li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-start mb-4">
+      <ul>
+        <li>Ruby on rails</li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-start mb-4">
+      <ul>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-start mb-4">
+      <ul>
+        <li>PostgreSQL</li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-start mb-4">
+      <ul>
+        <li>HTML</li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-start mb-4">
+      <ul>
+        <li>CSS</li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-start mb-4">
+      <ul>
+        <li>Bootstrap</li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-start mb-4">
+      <ul>
+        <li>TDD</li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-start mb-4">
+      <ul>
+        <li>Version Control</li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-start mb-4">
+      <ul>
+        <li>Github</li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-start mb-4">
+      <ul>
+        <li>Heroku</li>
+      </ul>
     </div>
 
   </div>
+  <hr>
+<%= render "footer" %>
 </div>
