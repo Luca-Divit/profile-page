@@ -1,4 +1,11 @@
+.container {
+  padding-top: 4.5rem;
+  padding-bottom: 1.5rem;
+  z-index: 1;
+}
+
 .top-nav {
+  background: linear-gradient(to left, rgba(205,205,205,0.9), rgba(210,210,210,0.9), rgba(215,215,215,0.9), rgba(220,220,220,0.9));
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6,10 +13,13 @@
   // background-color: #00BAF0;
   // background: linear-gradient(to left, #f46b45, #eea849);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: black;
+  color: rgba(45, 45, 45, .9);
   height: 50px;
   padding: 1em;
-  position: sticky;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .menu {
@@ -84,18 +94,33 @@
 section {
   h4 {
     margin: 0;
-    color: rgba(0, 0, 0, .8);
+    color: rgba(45, 45, 45, .9);
+    position: relative;
+    right: -112px;
   }
 }
 
 .no-decoration {
   text-decoration: none;
-  color: rgba(0, 0, 0, .75);
+  color: rgba(45, 45, 45, .9);
 }
 
 .no-decoration:hover {
-  color: rgba(0, 0, 0, 1);
+  color: rgba(45, 45, 45, .9);
   text-shadow: 0px 0.1px black;
+}
+
+.my-button {
+  text-decoration: none;
+  background: rgba(55, 55, 55, .4);
+  border-radius: 48px;
+  padding: 16px 32px;
+  color: rgba(245, 245, 245, .9);
+}
+
+.my-button:hover {
+  background: rgba(45, 45, 45, .6);
+  color: rgba(245, 245, 245, 1);
 }
 
 @media (max-width: 700px) {
@@ -140,11 +165,19 @@ section {
 
   .no-decoration {
     text-decoration: none;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(45, 45, 45, .9);
   }
 
   .no-decoration:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(45, 45, 45, .9);
     text-shadow: 0px 0.1px #fff;
+  }
+
+  section {
+    h4 {
+      margin: 0;
+      color: rgba(45, 45, 45, .9);
+      position: static;
+    }
   }
 }
