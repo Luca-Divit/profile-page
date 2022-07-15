@@ -6,6 +6,7 @@
 .footer-links {
   i {
     color: rgba(55, 55, 55, .4);
+    transition: color .5s ease;
   }
 
   i:hover {
