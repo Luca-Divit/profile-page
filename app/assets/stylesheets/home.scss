@@ -167,11 +167,12 @@ section {
 
   .no-decoration {
     text-decoration: none;
-    color: rgba(45, 45, 45, .9);
+    color: rgba(245, 245, 245, .9);
+    text-shadow: none;
   }
 
   .no-decoration:hover {
-    color: rgba(45, 45, 45, .9);
+    color: rgba(245, 245, 245, 1);
     text-shadow: 0px 0.1px #fff;
   }
 
