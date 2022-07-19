@@ -118,11 +118,25 @@ section {
   padding: 16px 32px;
   color: rgba(245, 245, 245, .9);
   transition: background .5s ease;
+  text-align: center;
 }
 
 .my-button:hover {
   background: rgba(45, 45, 45, .6);
   color: rgba(245, 245, 245, 1);
+}
+
+.text-centered {
+  text-align: center;
+}
+
+div {
+  ul {
+    margin: 0 auto;
+    li {
+      font-size: .8rem;
+    }
+  }
 }
 
 @media (max-width: 700px) {
@@ -182,5 +196,10 @@ section {
       color: rgba(45, 45, 45, .9);
       position: static;
     }
+  }
+
+  #video {
+    width: 226px;
+    height: 490px;
   }
 }

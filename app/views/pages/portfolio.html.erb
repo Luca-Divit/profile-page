@@ -1,23 +1,26 @@
 <%= render "navbar" %>
   <div class="container">
     <div class="row">
-      <div class="col-12 d-flex justify-content-center">
+      <div class="col-12 d-flex justify-content-center mb-4">
         <h1>GymBuddy</h1>
       </div>
-      <div class="col-12 d-flex justify-content-center mb-4">
-        <a href="http://www.gymbudy.com" target="_blank">www.gymbudy.com</a>
+      <div class="col-12 col-md-4 d-flex flex-column justify-content-center mb-4">
+        <h4 class="text-centered">Get to the website!</h4>
+        <a href="http://www.gymbudy.com" target="_blank" class="my-button">www.gymbudy.com</a>
       </div>
-      <div class="col-12 d-flex justify-content-center mb-4">
-        <iframe src="https://player.vimeo.com/video/730400370?h=12886f3268&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="180" height="390" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="gym-buddy-demo.mp4"></iframe>
+      <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+        <iframe src="https://player.vimeo.com/video/730400370?h=12886f3268&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" id="video" width="180" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="gym-buddy-demo.mp4"></iframe>
+      </div>
+      <div class="col-12 col-md-4 d-flex flex-column justify-content-center mb-4">
+        <p class="text-centered">Gymbuddy helps you find your next gym partner</p>
+        <ul>
+          <li>Check through a list of potential buddies nearby</li>
+          <li>Refine your search by selecting your preferences</li>
+          <li>Send request to buddy up or just skip onto the next one</li>
+          <li>See others locations by clicking on the map</li>
+          <li>Chat with your buddies and arrange your next sessions together</li>
+        </ul>
       </div>
     </div>
   </div>
 <%= render "footer" %>
-
-
-
-
-
-
-
-<%# <div style="padding:216.73% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/730400370?h=12886f3268&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="gym-buddy-demo.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> %>
