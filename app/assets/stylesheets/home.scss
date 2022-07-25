@@ -8,6 +8,10 @@ body {
   z-index: 1;
 }
 
+.spacer {
+  padding-right: 1rem;
+}
+
 .top-nav {
   background: linear-gradient(to left, rgba(205,205,205,0.9), rgba(210,210,210,0.9), rgba(215,215,215,0.9), rgba(220,220,220,0.9));
   display: flex;
@@ -136,7 +140,7 @@ section {
 
 div {
   ul {
-    margin: 0 auto;
+    margin-left: 3.4rem;
     li {
       font-size: .8rem;
     }
@@ -161,7 +165,7 @@ iframe {
 .l-contact {
   text-align: start;
   text-decoration: none;
-  color: rgba(35, 35, 35, .8);
+  color: rgba(35, 35, 35, .6);
   transition: color .5s ease;
 }
 
@@ -173,6 +177,16 @@ iframe {
   .menu-button-container {
     display: flex;
   }
+
+  div {
+    ul {
+      margin: 0;
+      li {
+        font-size: .8rem;
+      }
+    }
+  }
+
   .menu {
     position: absolute;
     top: 0;
@@ -231,5 +245,10 @@ iframe {
   #video {
     width: 226px;
     height: 490px;
+  }
+
+  .spacing-down {
+    position: relative;
+    top: 10rem;
   }
 }
