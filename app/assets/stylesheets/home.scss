@@ -173,6 +173,11 @@ iframe {
   color: rgba(35, 35, 35, 1);
 }
 
+.spacing-down {
+  position: relative;
+  top: 10rem;
+}
+
 @media (max-width: 700px) {
   .menu-button-container {
     display: flex;
