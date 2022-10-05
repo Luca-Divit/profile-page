@@ -1,0 +1,5 @@
+meta_product_name: "Luca Di Vittorio"
+meta_title: "Luca Di Vittorio - Web Developer"
+meta_description: "Bio & Portfolio"
+meta_image: "Luca_148.jpg" # should exist in `app/assets/images/`
+twitter_account: "@lucadivit1"   # required for Twitter Cards
