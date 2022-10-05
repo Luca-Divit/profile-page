@@ -1,8 +1,9 @@
 body {
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 .container {
+  min-height: 100%;
   padding-top: 4.5rem;
   padding-bottom: 1.5rem;
   z-index: 1;
@@ -177,6 +178,10 @@ iframe {
   padding-top: 8rem;
 }
 
+.c-spread {
+  padding-top: 11em;
+}
+
 @media (max-width: 700px) {
   .menu-button-container {
     display: flex;
@@ -255,5 +260,13 @@ iframe {
     padding-top: 0;
     position: relative;
     top: 10rem;
+  }
+
+  .paragraph {
+    text-align: center;
+  }
+
+  .content-spread {
+    padding-top: 12em;
   }
 }

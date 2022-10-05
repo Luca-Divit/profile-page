@@ -18,10 +18,18 @@
   padding-top: 6.3rem;
 }
 
+.f-c {
+  padding-top: 4em;
+}
+
 @media (max-width: 700px) {
   .f-contact {
     padding-top: 0;
     position: relative;
     bottom: -345px;
+  }
+
+  .footer-contact {
+    padding-top: 9em;
   }
 }
