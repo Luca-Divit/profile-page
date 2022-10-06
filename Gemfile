@@ -14,8 +14,8 @@ gem "sprockets-rails"
 gem "pg"
 
 # To log number of viewers
-gem 'impressionist'
-
+# gem 'impressionist'
+gem "punching_bag"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
