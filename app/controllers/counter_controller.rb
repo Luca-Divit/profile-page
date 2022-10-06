@@ -1,2 +1,0 @@
-class CounterController < ApplicationController
-end
